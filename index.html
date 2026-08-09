@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Sitio base para Runner Burger, restaurante de hamburguesas con secciones de menú, galería, promociones, ubicación y contacto."
+    >
+    <title>Runner Burger | Sitio base</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <!-- Header / Navegación principal -->
+    <header class="site-header" data-header>
+      <nav class="nav container" aria-label="Navegación principal">
+        <a class="brand" href="#inicio" aria-label="Runner Burger inicio">
+          <span class="brand-logo" aria-hidden="true">RB</span>
+          <span class="brand-text">Runner Burger</span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-menu">
+          <span class="sr-only">Abrir menú</span>
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+        </button>
+
+        <ul class="nav-menu" id="primary-menu">
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#menu">Menú</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#promos">Promos</a></li>
+          <li><a href="#ubicacion">Ubicación</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero principal -->
+      <section class="hero" id="inicio">
+        <div class="hero-media" role="img" aria-label="Imagen destacada pendiente de Runner Burger">
+          <div class="hero-placeholder">
+            <span>Imagen destacada pendiente</span>
+          </div>
+        </div>
+
+        <div class="hero-content container">
+          <p class="eyebrow">Restaurante / hamburguesas</p>
+          <h1>Runner Burger</h1>
+          <p class="hero-copy">
+            [Texto provisional] Hamburguesas, sabor y energía para quienes van por más.
+            Reemplazar con el mensaje principal del negocio.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#menu">Ver menú</a>
+            <a class="button button-secondary" href="#ubicacion">Cómo llegar</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Nosotros -->
+      <section class="section about" id="nosotros">
+        <div class="container section-grid">
+          <div>
+            <p class="section-kicker">Nosotros</p>
+            <h2>Una historia lista para contarse con tu voz.</h2>
+          </div>
+          <div class="section-copy">
+            <p>
+              [Texto provisional] Aquí irá la historia de Runner Burger: concepto,
+              especialidad, ambiente, valores y lo que hace distinta la experiencia.
+            </p>
+            <p>
+              Cuando compartas los textos finales, esta sección puede incluir origen,
+              equipo, ingredientes, estilo de servicio o cualquier detalle importante.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Menú / Categorías -->
+      <section class="section menu-section" id="menu">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">Menú</p>
+            <h2>Categorías principales</h2>
+            <p>[Pendiente] Reemplazar nombres, descripciones y precios con el menú real.</p>
+          </div>
+
+          <div class="menu-grid">
+            <article class="menu-card">
+              <span class="menu-card-tag">Categoría 01</span>
+              <h3>Hamburguesas</h3>
+              <p>[Placeholder] Productos principales, especialidades y combinaciones.</p>
+            </article>
+            <article class="menu-card">
+              <span class="menu-card-tag">Categoría 02</span>
+              <h3>Acompañamientos</h3>
+              <p>[Placeholder] Papas, complementos, extras o productos similares.</p>
+            </article>
+            <article class="menu-card">
+              <span class="menu-card-tag">Categoría 03</span>
+              <h3>Bebidas</h3>
+              <p>[Placeholder] Refrescos, aguas, malteadas u opciones disponibles.</p>
+            </article>
+            <article class="menu-card">
+              <span class="menu-card-tag">Categoría 04</span>
+              <h3>Combos</h3>
+              <p>[Placeholder] Paquetes, promociones permanentes o destacados.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Galería -->
+      <section class="section gallery-section" id="galeria">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">Galería</p>
+            <h2>Fotos del lugar y productos</h2>
+            <p>[Pendiente] Agregar fotografías reales de alimentos, local, equipo y ambiente.</p>
+          </div>
+
+          <div class="gallery-grid">
+            <figure class="gallery-item gallery-item-large">
+              <div class="image-placeholder">Foto principal pendiente</div>
+              <figcaption>Producto destacado</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <div class="image-placeholder">Foto pendiente</div>
+              <figcaption>Local / ambiente</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <div class="image-placeholder">Foto pendiente</div>
+              <figcaption>Preparación</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <div class="image-placeholder">Foto pendiente</div>
+              <figcaption>Clientes / experiencia</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- Promociones / Destacados -->
+      <section class="section promos" id="promos">
+        <div class="container promo-layout">
+          <div>
+            <p class="section-kicker">Promociones</p>
+            <h2>Destacados listos para activar.</h2>
+            <p>
+              [Texto provisional] Esta zona puede mostrar promociones por día,
+              producto estrella, combo recomendado o anuncios especiales.
+            </p>
+          </div>
+
+          <div class="promo-list" aria-label="Promociones pendientes">
+            <article class="promo-card">
+              <span>Destacado 01</span>
+              <h3>[Nombre de promoción]</h3>
+              <p>[Descripción, precio o vigencia pendiente]</p>
+            </article>
+            <article class="promo-card">
+              <span>Destacado 02</span>
+              <h3>[Producto estrella]</h3>
+              <p>[Descripción breve pendiente]</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Ubicación, horarios y contacto -->
+      <section class="section location-section" id="ubicacion">
+        <div class="container location-grid">
+          <div>
+            <p class="section-kicker">Visítanos</p>
+            <h2>Ubicación, horarios y contacto</h2>
+            <p>[Pendiente] Agregar dirección completa, teléfono, WhatsApp y horarios reales.</p>
+
+            <dl class="contact-list">
+              <div>
+                <dt>Dirección</dt>
+                <dd>[Dirección pendiente]</dd>
+              </div>
+              <div>
+                <dt>Horario</dt>
+                <dd>[Horario pendiente]</dd>
+              </div>
+              <div>
+                <dt>Contacto</dt>
+                <dd>[Teléfono / WhatsApp pendiente]</dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="map-placeholder" role="img" aria-label="Mapa pendiente">
+            Mapa o iframe de Google Maps pendiente
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand footer-brand" href="#inicio" aria-label="Runner Burger inicio">
+            <span class="brand-logo" aria-hidden="true">RB</span>
+            <span class="brand-text">Runner Burger</span>
+          </a>
+          <p>[Texto provisional] Sitio base preparado para contenido real.</p>
+        </div>
+
+        <div>
+          <h2>Enlaces</h2>
+          <ul>
+            <li><a href="#menu">Menú</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#ubicacion">Ubicación</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h2>Redes</h2>
+          <ul>
+            <li><a href="#" aria-label="Instagram pendiente">Instagram [pendiente]</a></li>
+            <li><a href="#" aria-label="Facebook pendiente">Facebook [pendiente]</a></li>
+            <li><a href="#" aria-label="TikTok pendiente">TikTok [pendiente]</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
