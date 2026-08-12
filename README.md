@@ -29,10 +29,16 @@ runnerburgerweb/
     icons/
 ```
 
+## Assets integrados
+
+- Logo: `assets/logo/runner-burger-logo.jpg`
+- Menú original: `assets/menu/runner-burger-menu.jpg`
+- Fotos: `assets/photos/melt-run.jpg`, `assets/photos/big-run.jpg`, `assets/photos/pizza-run.jpg`
+
 ## Reemplazo de contenido
 
-- Logo: guarda el archivo real en `assets/logo/` y cambia el bloque `.brand-logo` por una imagen en `index.html`.
-- Fotos: guarda imágenes optimizadas en `assets/photos/` y reemplaza los bloques con clase `image-placeholder`.
-- Menú: guarda PDF, imagen o archivo editable en `assets/menu/`; después actualiza las tarjetas de la sección `#menu`.
+- Logo: reemplaza `assets/logo/runner-burger-logo.jpg` si hay una versión final de mayor calidad.
+- Fotos: agrega nuevas imágenes en `assets/photos/` y actualiza la galería en `index.html`.
+- Menú: el menú ya está transcrito desde la foto; confirma precios, ortografía y vigencia antes de publicar como definitivo.
 - Contacto: reemplaza `[Dirección pendiente]`, `[Horario pendiente]`, teléfono, WhatsApp y redes sociales en `index.html`.
-- Paleta: cuando llegue el logo, ajusta los colores base en `:root` dentro de `css/styles.css`.
+- Paleta: los colores actuales están basados en el rojo del logo; ajusta las variables en `:root` dentro de `css/styles.css` si cambia la identidad visual.

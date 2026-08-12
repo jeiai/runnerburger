@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta
       name="description"
-      content="Sitio base para Runner Burger, restaurante de hamburguesas con secciones de menú, galería, promociones, ubicación y contacto."
+      content="Runner Burger: hamburguesas Run, paquetes, papas, refrescos y productos destacados."
     >
-    <title>Runner Burger | Sitio base</title>
+    <title>Runner Burger | Hamburguesas Run</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -21,8 +21,7 @@
     <header class="site-header" data-header>
       <nav class="nav container" aria-label="Navegación principal">
         <a class="brand" href="#inicio" aria-label="Runner Burger inicio">
-          <span class="brand-logo" aria-hidden="true">RB</span>
-          <span class="brand-text">Runner Burger</span>
+          <img class="brand-logo-img" src="assets/logo/runner-burger-logo.jpg" alt="Runner Burger">
         </a>
 
         <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-menu">
@@ -36,7 +35,7 @@
           <li><a href="#nosotros">Nosotros</a></li>
           <li><a href="#menu">Menú</a></li>
           <li><a href="#galeria">Galería</a></li>
-          <li><a href="#promos">Promos</a></li>
+          <li><a href="#promos">Destacados</a></li>
           <li><a href="#ubicacion">Ubicación</a></li>
         </ul>
       </nav>
@@ -45,18 +44,16 @@
     <main>
       <!-- Hero principal -->
       <section class="hero" id="inicio">
-        <div class="hero-media" role="img" aria-label="Imagen destacada pendiente de Runner Burger">
-          <div class="hero-placeholder">
-            <span>Imagen destacada pendiente</span>
-          </div>
-        </div>
+        <picture class="hero-media">
+          <img src="assets/photos/pizza-run.jpg" alt="Hamburguesa Pizza Run de Runner Burger">
+        </picture>
 
         <div class="hero-content container">
-          <p class="eyebrow">Restaurante / hamburguesas</p>
+          <p class="eyebrow">Hamburguesas al estilo Run</p>
           <h1>Runner Burger</h1>
           <p class="hero-copy">
-            [Texto provisional] Hamburguesas, sabor y energía para quienes van por más.
-            Reemplazar con el mensaje principal del negocio.
+            Hamburguesas con carne de res, pollo, queso, tocino, BBQ, chorizo,
+            champiñones y combinaciones especiales para pedir solas o en paquete.
           </p>
           <div class="hero-actions">
             <a class="button button-primary" href="#menu">Ver menú</a>
@@ -70,52 +67,142 @@
         <div class="container section-grid">
           <div>
             <p class="section-kicker">Nosotros</p>
-            <h2>Una historia lista para contarse con tu voz.</h2>
+            <h2>Hamburguesas directas, abundantes y con identidad propia.</h2>
           </div>
           <div class="section-copy">
             <p>
-              [Texto provisional] Aquí irá la historia de Runner Burger: concepto,
-              especialidad, ambiente, valores y lo que hace distinta la experiencia.
+              Runner Burger reúne una línea de hamburguesas Run con ingredientes
+              base, carne, queso y combinaciones como chorizo, tocino, BBQ,
+              champiñones, papa rayada frita, fruta frita y pepperoni.
             </p>
             <p>
-              Cuando compartas los textos finales, esta sección puede incluir origen,
-              equipo, ingredientes, estilo de servicio o cualquier detalle importante.
+              [Pendiente] Agregar aquí la historia real del negocio, origen,
+              estilo de atención, zona de servicio y cualquier dato de marca.
             </p>
           </div>
         </div>
       </section>
 
-      <!-- Menú / Categorías -->
+      <!-- Menú / Productos -->
       <section class="section menu-section" id="menu">
         <div class="container">
           <div class="section-heading">
             <p class="section-kicker">Menú</p>
-            <h2>Categorías principales</h2>
-            <p>[Pendiente] Reemplazar nombres, descripciones y precios con el menú real.</p>
+            <h2>Hamburguesas y paquetes</h2>
+            <p>Precios transcritos desde la foto del menú. Conviene confirmar ortografía y vigencia antes de publicar como versión final.</p>
           </div>
 
-          <div class="menu-grid">
-            <article class="menu-card">
-              <span class="menu-card-tag">Categoría 01</span>
-              <h3>Hamburguesas</h3>
-              <p>[Placeholder] Productos principales, especialidades y combinaciones.</p>
+          <div class="menu-table" aria-label="Menú Runner Burger">
+            <div class="menu-table-head">
+              <span>Producto</span>
+              <span>Unitario</span>
+              <span>Paquete</span>
+            </div>
+
+            <article class="menu-row">
+              <div>
+                <h3>Run</h3>
+                <p>Ingredientes base, carne de res y queso amarillo.</p>
+              </div>
+              <strong>$150.00</strong>
+              <strong>$200.00</strong>
             </article>
-            <article class="menu-card">
-              <span class="menu-card-tag">Categoría 02</span>
-              <h3>Acompañamientos</h3>
-              <p>[Placeholder] Papas, complementos, extras o productos similares.</p>
+            <article class="menu-row">
+              <div>
+                <h3>Chicken Run</h3>
+                <p>Ingredientes base, carne de pollo y queso amarillo.</p>
+              </div>
+              <strong>$150.00</strong>
+              <strong>$200.00</strong>
             </article>
-            <article class="menu-card">
-              <span class="menu-card-tag">Categoría 03</span>
-              <h3>Bebidas</h3>
-              <p>[Placeholder] Refrescos, aguas, malteadas u opciones disponibles.</p>
+            <article class="menu-row">
+              <div>
+                <h3>Frutti Run</h3>
+                <p>Ingredientes base, carne de res, fruta frita y queso amarillo.</p>
+              </div>
+              <strong>$170.00</strong>
+              <strong>$220.00</strong>
             </article>
-            <article class="menu-card">
-              <span class="menu-card-tag">Categoría 04</span>
-              <h3>Combos</h3>
-              <p>[Placeholder] Paquetes, promociones permanentes o destacados.</p>
+            <article class="menu-row">
+              <div>
+                <h3>Pap Run</h3>
+                <p>Ingredientes base, carne de res, papa rayada frita y queso amarillo.</p>
+              </div>
+              <strong>$170.00</strong>
+              <strong>$220.00</strong>
+            </article>
+            <article class="menu-row">
+              <div>
+                <h3>Chilli Run</h3>
+                <p>Ingredientes base, carne de res, chilli beans y queso amarillo.</p>
+              </div>
+              <strong>$170.00</strong>
+              <strong>$220.00</strong>
+            </article>
+            <article class="menu-row">
+              <div>
+                <h3>Big Run</h3>
+                <p>Ingredientes base, doble carne de res y doble queso amarillo.</p>
+              </div>
+              <strong>$190.00</strong>
+              <strong>$240.00</strong>
+            </article>
+            <article class="menu-row">
+              <div>
+                <h3>Melt Run</h3>
+                <p>Ingredientes base, carne de res, chorizo y queso oaxaca.</p>
+              </div>
+              <strong>$190.00</strong>
+              <strong>$240.00</strong>
+            </article>
+            <article class="menu-row">
+              <div>
+                <h3>Ranch Run</h3>
+                <p>Ingredientes base, carne de res, tocino, BBQ y queso amarillo.</p>
+              </div>
+              <strong>$190.00</strong>
+              <strong>$240.00</strong>
+            </article>
+            <article class="menu-row">
+              <div>
+                <h3>Pizza Run</h3>
+                <p>Ingredientes base, carne de res, pepperoni, champiñones y queso mozzarella.</p>
+              </div>
+              <strong>$210.00</strong>
+              <strong>$260.00</strong>
+            </article>
+            <article class="menu-row">
+              <div>
+                <h3>Great Run</h3>
+                <p>Ingredientes base, carne de res, chorizo, tocino, chilli beans, papa rayada frita, champiñones y doble queso amarillo.</p>
+              </div>
+              <strong>$250.00</strong>
+              <strong>$300.00</strong>
             </article>
           </div>
+
+          <div class="extras-grid" aria-label="Extras">
+            <article>
+              <span>Papas fritas</span>
+              <strong>$50.00</strong>
+            </article>
+            <article>
+              <span>Refresco</span>
+              <strong>$35.00</strong>
+            </article>
+            <article>
+              <span>Postre</span>
+              <strong>$35.00</strong>
+            </article>
+            <article>
+              <span>Ingrediente extra</span>
+              <strong>$20.00</strong>
+            </article>
+          </div>
+
+          <a class="menu-photo-link" href="assets/menu/runner-burger-menu.jpg" target="_blank" rel="noreferrer">
+            Ver foto original del menú
+          </a>
         </div>
       </section>
 
@@ -124,26 +211,26 @@
         <div class="container">
           <div class="section-heading">
             <p class="section-kicker">Galería</p>
-            <h2>Fotos del lugar y productos</h2>
-            <p>[Pendiente] Agregar fotografías reales de alimentos, local, equipo y ambiente.</p>
+            <h2>Productos Runner Burger</h2>
+            <p>Fotografías reales proporcionadas para integrar la identidad visual del sitio.</p>
           </div>
 
           <div class="gallery-grid">
             <figure class="gallery-item gallery-item-large">
-              <div class="image-placeholder">Foto principal pendiente</div>
-              <figcaption>Producto destacado</figcaption>
+              <img src="assets/photos/big-run.jpg" alt="Hamburguesa Big Run de Runner Burger">
+              <figcaption>Big Run</figcaption>
             </figure>
             <figure class="gallery-item">
-              <div class="image-placeholder">Foto pendiente</div>
-              <figcaption>Local / ambiente</figcaption>
+              <img src="assets/photos/melt-run.jpg" alt="Hamburguesa Melt Run de Runner Burger">
+              <figcaption>Melt Run</figcaption>
             </figure>
             <figure class="gallery-item">
-              <div class="image-placeholder">Foto pendiente</div>
-              <figcaption>Preparación</figcaption>
+              <img src="assets/photos/pizza-run.jpg" alt="Hamburguesa Pizza Run de Runner Burger">
+              <figcaption>Pizza Run</figcaption>
             </figure>
             <figure class="gallery-item">
-              <div class="image-placeholder">Foto pendiente</div>
-              <figcaption>Clientes / experiencia</figcaption>
+              <img src="assets/logo/runner-burger-logo.jpg" alt="Logo Runner Burger">
+              <figcaption>Logo Runner Burger</figcaption>
             </figure>
           </div>
         </div>
@@ -153,24 +240,24 @@
       <section class="section promos" id="promos">
         <div class="container promo-layout">
           <div>
-            <p class="section-kicker">Promociones</p>
-            <h2>Destacados listos para activar.</h2>
+            <p class="section-kicker">Destacados</p>
+            <h2>Especialidades del menú Run.</h2>
             <p>
-              [Texto provisional] Esta zona puede mostrar promociones por día,
-              producto estrella, combo recomendado o anuncios especiales.
+              Usa esta sección para empujar los productos más fuertes, combos
+              por temporada o promociones vigentes cuando estén definidos.
             </p>
           </div>
 
-          <div class="promo-list" aria-label="Promociones pendientes">
+          <div class="promo-list" aria-label="Productos destacados">
             <article class="promo-card">
-              <span>Destacado 01</span>
-              <h3>[Nombre de promoción]</h3>
-              <p>[Descripción, precio o vigencia pendiente]</p>
+              <span>Doble carne</span>
+              <h3>Big Run</h3>
+              <p>Doble carne de res y doble queso amarillo. Unitario $190.00 / paquete $240.00.</p>
             </article>
             <article class="promo-card">
-              <span>Destacado 02</span>
-              <h3>[Producto estrella]</h3>
-              <p>[Descripción breve pendiente]</p>
+              <span>Especialidad</span>
+              <h3>Pizza Run</h3>
+              <p>Carne de res, pepperoni, champiñones y queso mozzarella. Unitario $210.00 / paquete $260.00.</p>
             </article>
           </div>
         </div>
@@ -212,10 +299,9 @@
       <div class="container footer-grid">
         <div>
           <a class="brand footer-brand" href="#inicio" aria-label="Runner Burger inicio">
-            <span class="brand-logo" aria-hidden="true">RB</span>
-            <span class="brand-text">Runner Burger</span>
+            <img class="brand-logo-img footer-logo" src="assets/logo/runner-burger-logo.jpg" alt="Runner Burger">
           </a>
-          <p>[Texto provisional] Sitio base preparado para contenido real.</p>
+          <p>Hamburguesas Run, paquetes y productos destacados.</p>
         </div>
 
         <div>
