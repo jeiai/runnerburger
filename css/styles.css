@@ -352,9 +352,18 @@ a {
 }
 
 .menu-row strong {
+  display: grid;
+  gap: 2px;
   color: var(--color-fire);
   font-size: 1rem;
   text-align: right;
+}
+
+.menu-row strong span {
+  color: var(--color-muted);
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
 }
 
 .extras-grid {
