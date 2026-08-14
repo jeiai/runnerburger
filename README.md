@@ -33,7 +33,7 @@ runnerburgerweb/
 
 - Logo: `assets/logo/runner-burger-logo.jpg`
 - Menú original: `assets/menu/runner-burger-menu.jpg`
-- Fotos: `assets/photos/run.jpg`, `assets/photos/melt-run.jpg`, `assets/photos/big-run.jpg`, `assets/photos/chilli-run.jpg`, `assets/photos/frutti-run.jpg`, `assets/photos/ranch-run.jpg`, `assets/photos/great-run.jpg`, `assets/photos/chicken-run.jpg`
+- Fotos: `assets/photos/run.jpg`, `assets/photos/chicken-run.jpg`, `assets/photos/frutti-run.jpg`, `assets/photos/chilli-run.jpg`, `assets/photos/big-run.jpg`, `assets/photos/melt-run.jpg`, `assets/photos/ranch-run.jpg`, `assets/photos/pizza-run.jpg`, `assets/photos/great-run.jpg`
 
 ## Reemplazo de contenido
 
