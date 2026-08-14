@@ -303,6 +303,33 @@ a {
   margin-bottom: 0;
 }
 
+/* Video destacado */
+.featured-video {
+  background: #ffffff;
+}
+
+.video-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(280px, 420px);
+  gap: clamp(28px, 6vw, 72px);
+  align-items: center;
+}
+
+.video-frame {
+  aspect-ratio: 9 / 16;
+  overflow: hidden;
+  border-radius: var(--radius);
+  background: #000000;
+  box-shadow: var(--shadow-soft);
+}
+
+.video-frame iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: 0;
+}
+
 /* Menú */
 .menu-section {
   background: #ffffff;
@@ -730,6 +757,7 @@ a {
   }
 
   .section-grid,
+  .video-layout,
   .promo-layout,
   .location-grid,
   .footer-grid {
