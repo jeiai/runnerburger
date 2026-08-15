@@ -95,6 +95,11 @@ a {
   object-fit: contain;
 }
 
+.site-header .brand-logo-img {
+  width: 86px;
+  height: 56px;
+}
+
 .brand-text {
   font-family: "Oswald", sans-serif;
   font-size: 1.35rem;
@@ -812,6 +817,11 @@ a {
   .brand-logo-img {
     width: 98px;
     height: 64px;
+  }
+
+  .site-header .brand-logo-img {
+    width: 78px;
+    height: 51px;
   }
 
   .hero {
