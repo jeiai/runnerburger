@@ -101,8 +101,8 @@ a {
 }
 
 .site-header .brand-logo-img {
-  width: 97px;
-  height: 63px;
+  width: auto;
+  height: var(--header-height);
 }
 
 .brand-text {
@@ -825,8 +825,8 @@ a {
   }
 
   .site-header .brand-logo-img {
-    width: 88px;
-    height: 58px;
+    width: auto;
+    height: var(--header-height);
   }
 
   .hero {
