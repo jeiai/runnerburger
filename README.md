@@ -32,6 +32,7 @@ runnerburgerweb/
 ## Assets integrados
 
 - Logo: `assets/logo/runner-burger-logo.jpg`
+- Logo con slogan: `assets/logo/runner-burger-logo-slogan.png`
 - Menú original: `assets/menu/runner-burger-menu.jpg`
 - Hero principal: `assets/photos/runner-burger-hero-wrap.png`
 - Fotos: `assets/photos/run.jpg`, `assets/photos/chicken-run.jpg`, `assets/photos/frutti-run.jpg`, `assets/photos/pap-run.jpg`, `assets/photos/chilli-run.jpg`, `assets/photos/big-run.jpg`, `assets/photos/melt-run.jpg`, `assets/photos/ranch-run.jpg`, `assets/photos/pizza-run.jpg`, `assets/photos/great-run.jpg`
