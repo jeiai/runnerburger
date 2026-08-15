@@ -10,7 +10,7 @@
   --shadow-soft: 0 24px 60px rgba(18, 13, 12, 0.14);
   --radius: 8px;
   --container: 1120px;
-  --header-height: 112px;
+  --header-height: 92px;
 }
 
 * {
@@ -90,8 +90,8 @@ a {
 }
 
 .brand-logo-img {
-  width: 164px;
-  height: 96px;
+  width: 128px;
+  height: 78px;
   object-fit: contain;
 }
 
@@ -802,7 +802,7 @@ a {
 
 @media (max-width: 640px) {
   :root {
-    --header-height: 96px;
+    --header-height: 86px;
   }
 
   .container {
@@ -810,8 +810,8 @@ a {
   }
 
   .brand-logo-img {
-    width: 128px;
-    height: 86px;
+    width: 112px;
+    height: 72px;
   }
 
   .hero {
