@@ -190,7 +190,7 @@ a {
   height: 100%;
   object-fit: cover;
   object-position: right center;
-  transform: translateX(400px);
+  transform: translateX(100px);
 }
 
 .hero-media::after {
