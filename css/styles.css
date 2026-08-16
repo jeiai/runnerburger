@@ -186,11 +186,11 @@ a {
 }
 
 .hero-media img {
-  width: 9000%;
-  height: 9000%;
-  object-fit: contain;
+  width: 125%;
+  height: 125%;
+  object-fit: cover;
   object-position: 100% center;
-  transform: none;
+  transform: translateX(10%);
 }
 
 .hero-media::after {
