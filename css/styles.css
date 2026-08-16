@@ -204,7 +204,7 @@ a {
 .hero-content {
   position: relative;
   z-index: 1;
-  padding-block: 0 72px;
+  padding-block: 20px 72px;
 }
 
 .hero-logo {
