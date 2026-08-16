@@ -333,21 +333,12 @@ a {
   align-items: center;
 }
 
-.video-stack {
-  display: grid;
-  gap: 18px;
-}
-
 .video-frame {
   aspect-ratio: 9 / 16;
   overflow: hidden;
   border-radius: var(--radius);
   background: #000000;
   box-shadow: var(--shadow-soft);
-}
-
-.video-frame-wide {
-  aspect-ratio: 16 / 9;
 }
 
 .video-frame iframe {
