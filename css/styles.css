@@ -186,8 +186,8 @@ a {
 }
 
 .hero-media img {
-  width: 125%;
-  height: 125%;
+  width: 180%;
+  height: 180%;
   object-fit: cover;
   object-position: 100% center;
   transform: translateX(10%);
