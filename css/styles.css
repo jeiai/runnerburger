@@ -186,8 +186,12 @@ a {
 }
 
 .hero-media img {
+  position: absolute;
+  top: 0;
+  right: 0;
   width: 100%;
   height: auto;
+  display: block;
   object-fit: contain;
   object-position: right top;
   transform: none;
