@@ -309,6 +309,21 @@ a {
   align-items: start;
 }
 
+.about .section-grid {
+  grid-template-columns: 1fr;
+}
+
+.about .section-copy {
+  max-width: 980px;
+}
+
+.about .section-copy p {
+  color: var(--color-ink);
+  font-size: clamp(1.65rem, 4vw, 3.2rem);
+  font-weight: 800;
+  line-height: 1.16;
+}
+
 .section-copy p:first-child {
   margin-top: 0;
 }
