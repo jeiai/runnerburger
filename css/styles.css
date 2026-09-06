@@ -90,7 +90,8 @@ a {
 }
 
 .site-header .brand {
-  min-height: var(--header-height);
+  height: var(--header-height);
+  align-items: center;
 }
 
 .brand-logo-img {
@@ -103,6 +104,7 @@ a {
 .site-header .brand-logo-img {
   width: auto;
   height: calc(var(--header-height) * 0.6);
+  object-position: center;
 }
 
 .brand-text {
