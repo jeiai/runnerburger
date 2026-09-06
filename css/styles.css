@@ -103,7 +103,8 @@ a {
 
 .site-header .brand-logo-img {
   width: auto;
-  height: calc(var(--header-height) * 0.6);
+  height: calc(var(--header-height) - 12px);
+  max-height: calc(var(--header-height) - 12px);
   object-position: center;
 }
 
@@ -855,7 +856,8 @@ a {
 
   .site-header .brand-logo-img {
     width: auto;
-    height: calc(var(--header-height) * 0.6);
+    height: calc(var(--header-height) - 12px);
+    max-height: calc(var(--header-height) - 12px);
   }
 
   .hero {
